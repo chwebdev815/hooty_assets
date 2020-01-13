@@ -1,0 +1,7 @@
+DB_HOST=mongodb://hooty89021h358291xd382:sO56Uf1487f9F@54.87.110.167/hootydb
+PORT=3002
+COMMANDER_PASSWORD=scrapoxy2015#
+HOOTY_URL=http://staging.hooty.co
+AWS_accessKeyId= "AKIAIVWLLG3HEG57M55A"
+AWS_secretAccessKey= "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"
+AWS_region= "us-east-1"

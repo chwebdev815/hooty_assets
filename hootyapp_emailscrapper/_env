@@ -1,0 +1,4 @@
+DB_HOST=mongodb://hooty89021h358291xd382:sO56Uf1487f9F@54.87.110.167/hootydb
+PORT=3004
+COMMANDER_PASSWORD=scrapoxy2015#
+HOOTY_URL=http://localhost:8000

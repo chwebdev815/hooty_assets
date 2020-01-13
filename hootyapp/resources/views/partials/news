@@ -1,0 +1,24 @@
+	
+    
+    <script id="articleCards" type="text/x-handlebars-template" >
+
+
+
+											<div class="card">
+												<div class="text-right pr-3 pt-3 "> <span class="badge badge-pill badge-secondary p-2 mt-1">Music</span></div>
+												<div class="card-body pt-0">
+													<label class="checkboks_blue float-left">
+														<input type="checkbox" checked="checked"> <span class="checkmark_blue"></span> </label>
+													<div class="media"> <img class="d-flex mr-3 align-self-start rounded" src="{{asset('assets/images/1.jpg')}}">
+														<div class="media-body">
+															<h5>Top {{names}} media</h5>
+															<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+														</div>
+													</div>
+													<p><span class="font-weight-bold">Author:</span><span> Kristien Hunt</span><span class="font-weight-bold pl-4">Outlet:</span><span> Entreprenuer</span>
+														<a class="btn btn-primary float-right" href="{{URL::route('individualCompose')}}"> <img src="{{asset('assets/images/sendToAll.svg')}}" class="svg sendToAll"> Send Message </a>
+													</p>
+												</div>
+											</div>
+
+											</script>

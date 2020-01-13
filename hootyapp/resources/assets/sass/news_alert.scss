@@ -1,0 +1,26 @@
+#newsAlert .tab-content {
+    margin-top: -1px;
+    background: none;
+    border: none;
+}
+
+#newsAlert a.nav-link.active {
+    color: #0294ff;
+}
+
+#newsAlert .nav-tabs .nav-link.active {
+    background: transparent !important;
+}
+
+#newsAlert .card-body {
+    background-color: white;
+}
+
+#newsAlert .nav {
+    background-color: none !important;
+}
+
+#newsAlert .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 3px solid #0294ff;
+}

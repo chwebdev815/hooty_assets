@@ -1,0 +1,428 @@
+/*---------------------------------------------
+Template name:  Hooty
+----------------------------------------------*/
+
+/*=============================================
+    General CSS
+==============================================*/
+
+/* Default CSS */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-moz-selection {
+    background: #3494cf;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #3494cf;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+    color: #5d656b !important;
+    opacity: 1 !important;
+}
+::-moz-placeholder {
+    color: #5d656b !important;
+    opacity: 1 !important;
+}
+
+textarea {
+    resize: none;
+}
+input, textarea{
+    transition: border .2s;
+}
+input:focus,
+textarea:focus {
+    outline: none !important;
+    border-color: #3494cf !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+p:last-child{ 
+    margin-bottom: 0; 
+}
+
+a {
+    color: #3494cf;
+}
+a:hover {
+    color: #0569a7;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #5d656b;
+    background: #fff;
+}
+
+/* Default Classes */
+.custom-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3494cf;
+    display: inline-block;
+    border: 1px solid #3494cf;
+    border-radius: 5px;
+    padding: 0.625rem 1.875rem;
+    transition: all .2s;
+}
+.active.custom-btn,
+.custom-btn:hover {
+    color: #fff;
+    background-color: #3494cf;
+}
+
+.form-control {
+    font-size: 0.875rem;
+}
+.form-control:focus {
+    border-color: #328fca;
+}
+.font-weight-medium {
+    font-weight: 500;
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #e0e6eb;
+}
+header .row {
+    height: 99px;
+}
+
+.custom-breadcrumb li {
+    font-size: 1.6875rem;
+    font-weight: 500;
+    color: #262c30;
+}
+.custom-breadcrumb li + li:before {
+    content: '>';
+    color: #3494cf;
+    margin-right: 10px;
+}
+.custom-breadcrumb li a {
+    font-weight: 400;
+}
+
+.main-wraper {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+/* Navigation menu */
+.main-nav {
+    flex: 0 0 120px;
+    background: #2b3135;
+}
+.main-nav ul li {
+    margin: 20px 0;
+}
+.main-nav ul li a {
+    color: #fff;
+    font-size: 1.875rem;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 3.75rem;
+    border-radius: 5px;
+    transition: all .2s;
+}
+.main-nav ul li.active a,
+.main-nav ul li a:hover {
+    color: #3494cf;
+    background-color: rgba(16, 129, 199, 0.2);
+}
+
+/* Main content */
+.main-content-wrapper {
+    flex: 1;
+    background: #f2f9fc;
+}
+
+.content-head {
+    padding: 35px 50px;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(125, 137, 143, 0.2);
+    position: relative;
+    z-index: 1;
+}
+.content-subject h2 {
+    font-size: 1.875rem;
+    font-weight: normal;
+    color: #3494cf;
+}
+.content-subject input {
+    border: 0;
+    border-bottom: 1px solid #e0e6eb;
+    width: 100%;
+    font-size: 1.75rem;
+    color: #262c30;
+}
+
+.content-wrapper {
+    padding: 50px;
+    padding-bottom: 0;
+    overflow: auto;
+}
+.content-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+.content-wrapper::-webkit-scrollbar-thumb {
+  background-color: #c1ccd2;
+  border-radius: 10px;
+}
+
+.content {
+    background: #fff;
+    box-shadow: 0 0 35px rgba(125, 137, 143, 0.2);
+}
+.template-type {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #d4dee2;
+    padding: 35px 0;
+}
+.template-type li {
+    margin-left: 55px;
+}
+.template-type li a {
+    color: #848a8e;
+}
+.template-type li a:hover {
+    color: #3494cf;
+}
+.template-type svg {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+.ck.ck-toolbar {
+    border: 0 !important;
+    padding: 20px 55px !important;
+}
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline,
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline {
+    border: 0 !important;
+    border-top: 1px solid #d4dee2 !important;
+    padding: 55px !important;
+    box-shadow: none !important;
+    color: #3f474c;
+    min-height: 400px;
+}
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline p,
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline p {
+    font-weight: 300;
+    font-size: 1.625rem;
+    line-height: 32px;
+}
+
+/* Content Filters */
+.filter-form {}
+.filter-form input[type=text] {
+    height: 60px;
+}
+.filter-form button {
+    background-color: #328fca;
+    border-color: #328fca;
+    color: #fff;
+    padding: .5rem 1.813rem !important;
+}
+.filter-form button:hover,
+.filter-form button:active,
+.filter-form button:focus, {
+    background-color: #2f3438;
+}
+
+.sort-btn {
+    font-size: 1.375rem;
+    cursor: pointer;
+}
+.sort-btn:hover {
+    color: #328fca;
+}
+.sort-btn svg {
+    font-size: 0.8rem;
+}
+.refresh-btn {
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.page-links {
+    font-size: 1.375rem;
+}
+.page-links a {
+    color: #5d646a;
+}
+.page-links a:hover {
+    color: #328fca;
+}
+.page-links .next {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 5px;
+}
+.page-links .page-number {
+    border: 1px solid #dfe6e9;
+    width: 60px;
+    height: 50px;
+    line-height: 48px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.contacts-table thead th {
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+.contacts-table tbody {
+    font-size: 1.375rem;
+}
+.contacts-table td, .contacts-table th {
+    vertical-align: middle;
+    border-top: 0;
+}
+.contacts-table td {
+    border-top: 1px solid #d4dee2;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.contacts-table-form {
+    padding: 15px 45px;
+}
+.contacts-table {}
+.contacts-table label {
+    margin: 0;
+}
+.contacts-table thead th:first-child,
+.contacts-table tbody td:first-child {
+    padding-left: 0;
+    width: 50px;
+}
+.contacts-table thead th:nth-child(2),
+.contacts-table tbody td:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+}
+.contact-info img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.contact-info h3 {
+    font-size: 1.375rem;
+    color: #3494cf;
+    font-weight: normal;
+}
+.contact-info h3 span {
+    display: block;
+    color: #5d656b;
+    font-size: 1.1875rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.contacts-table input[type=checkbox] {
+    display: none;
+}
+.contacts-table input[type=checkbox] + span.check {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b1bec4;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #fff;
+    margin: 0;
+}
+.contacts-table input[type=checkbox]:checked + span.check {
+    border: 1px solid #edc348;
+    background-color: #edc348;
+}
+.contacts-table input[type=checkbox]:checked + span.star {
+    color: #edc348;
+}
+
+/* Search Page */
+.contacts-wrap {
+    padding: 0 50px;
+}
+.single-contact {
+    padding: 50px 0;
+}
+.single-contact:not(:last-child) {
+    border-bottom: 1px solid #d4dee2;
+}
+
+.sc-img {
+    flex: 0 0 160px;
+}
+.sc-img img {
+    border-radius: 50%;
+}
+
+.sc-description {
+    font-size: 1.375rem;
+    flex: 1;
+    position: relative;
+}
+.sc-description h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #262c30;
+    margin-bottom: 5px;
+}
+.sc-description h2 a {
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sc-description li + li {
+    margin-top: 15px;
+}
+.sc-description span {
+    display: block;
+    line-height: 1.2;
+}
+.sc-description > a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #fff;
+    border-color: #328fca;
+    background-color: #328fca;
+}
+.sc-description > a svg {
+    margin-right: 15px;
+    font-size: 1.125rem;
+}

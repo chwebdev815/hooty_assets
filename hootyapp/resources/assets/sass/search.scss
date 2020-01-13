@@ -1,0 +1,187 @@
+.tab-content {
+    background-color: transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    background: #0294FF !important;
+    border-color: #0294FF !important;
+    border-bottom-color: #0294FF !important;
+}
+
+// .card-header {
+//     background-color: transparent !important;
+//     border: none;
+// }
+
+.card-footer {
+    background-color: transparent !important;
+    border: none;
+}
+
+.checkboks {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkboks input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border: 1px solid grey;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkboks:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkboks input:checked~.checkmark {
+    background-color: white(33, 149, 243, 0.884);
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.checkboks input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.checkboks .checkmark:after {
+    position: absolute;
+    /* bottom: 10px; */
+    left: 4px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg) translate(-30%, -30%);
+}
+
+/*checkbox In Table box*/
+
+.checkboks_blue {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkboks_blue input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark_blue {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border: 1px solid grey;
+    /* margin-right: 20px; */
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkboks_blur:hover input~.checkmark_blue {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkboks_blue input:checked~.checkmark_blue {
+    background-color: #0294FF;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark_blue:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.checkboks_blue input:checked~.checkmark_blue:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.checkboks_blue .checkmark_blue:after {
+    position: absolute;
+    /* bottom: 10px; */
+    left: 4px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg) translate(-30%, -30%);
+}

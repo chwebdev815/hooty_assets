@@ -1,0 +1,80 @@
+/* Laptops */
+@media (max-width: 1366px) {
+	.main-wraper { height: calc(100vh - 81px); }
+	header .row { height: 80px; }
+	.logo img { max-height: 70px; }
+	.main-nav { flex: 0 0 90px; }
+	.content-subject h2 { font-size: 1.5rem; }
+	.content-subject input { font-size: 1.2rem; }
+	.content-head { padding: 20px 30px; }
+	.template-type { padding: 20px 0; font-size: 1.25rem; }
+	.content-wrapper { padding: 30px; }
+	.ck.ck-toolbar { padding: 10px 55px !important; }
+	.filter-form input[type=text] { height: 50px; }
+	.contacts-table-form { padding: 15px 30px; }
+	.contacts-table thead th { padding-bottom: 25px; }
+	.contacts-table td { padding-top: 16px; padding-bottom: 16px; }
+	.single-contact { padding: 25px 0; }
+	.sc-description h2 { font-size: 1.8rem; }
+	.sc-description, .sort-btn, .contact-info h3 { font-size: 1.25rem; }
+	.sc-description > a { font-size: 1rem; }
+	.sc-description > a svg { font-size: 0.875rem; }
+}
+
+@media (max-width: 1199.98px) {
+	.main-nav { flex: 0 0 70px; }
+	.custom-breadcrumb li { font-size: 1.25rem; }
+	.main-nav ul li a { font-size: 1.5rem; width: 50px; height: 50px; line-height: 50px; }
+	.page-links { font-size: 1.25rem; }
+	.refresh-btn { margin-left: 0.5rem; }
+	.contacts-table input[type=checkbox] + span.check { font-size: 0.625rem; width: 20px; height: 20px; line-height: 20px; }
+	.contacts-table thead th { font-size: 1.25rem; }
+	.contacts-table td { padding: 5px; }
+	.contacts-table thead th:first-child, .contacts-table tbody td:first-child { width: 32px; }
+	.contacts-table thead th:nth-child(2), .contacts-table tbody td:nth-child(2) { padding-left: 5px; padding-right: 5px; width: 35px; }
+	.contacts-table tbody, .contact-info h3 span { font-size: 1rem; }
+	.sc-img { flex: 0 0 100px; }
+	.sc-img img { max-width: 80px; }
+	.contacts-wrap { padding: 0 20px; }
+	.sc-description h2 { font-size: 1.5rem; }
+	.sc-description h2 a { font-size: 1.25rem; }
+	.sc-description { font-size: 1rem; }
+}
+
+@media (max-width: 991.98px) {
+	.custom-breadcrumb { margin-left: 0 !important; }
+	.custom-btn { padding: 0.5rem 0.5rem; }
+	.template-type, .sort-btn, .page-links { font-size: 1rem; }
+	.template-type li { margin-left: 20px; }
+	.ck.ck-toolbar { padding: 10px 15px !important; }
+	.filter-form input[type=text] { height: 40px; padding-top: 0; padding-bottom: 0; font-size: 1rem; }
+	.filter-form button { height: 40px; padding-top: 0 !important; padding-bottom: 0 !important; line-height: 40px; }
+	.page-links .page-number { width: 40px; height: 30px; line-height: 28px; }
+	.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline, .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline { padding: 25px !important; }
+	.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline p, .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline p {
+	    font-size: 1.2rem;
+	    line-height: 1.5;
+	}
+}
+
+@media (max-width: 767.98px) {
+	header { padding-top: 10px; }
+	header .row { height: auto; }
+	.main-wraper { overflow: auto; height: auto; }
+	.main-nav ul li { display: inline-block; margin: 10px 0; }
+	.main-nav ul li a { font-size: 1.3rem; width: 40px; height: 40px; line-height: 40px; }
+	.content-wrapper { padding: 20px; }
+	.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline, .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline { padding: 15px !important; }
+	.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-blurred.ck-editor__editable_inline p, .ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-focused.ck-editor__editable_inline p {
+	    font-size: 1rem;
+	}
+	.contacts-table thead th:nth-child(3), .contacts-table tbody td:nth-child(3) { min-width: 160px; }
+	.contacts-table thead th:nth-child(5), .contacts-table tbody td:nth-child(5) { min-width: 160px; }
+	.contacts-table { min-width: 600px; }
+	.table-instruction { font-size: 1rem; }
+}
+
+@media (max-width: 575.98px) {
+	.sc-description > a { position: static; margin-top: 15px; }
+	.template-type li + li { margin-top: 8px; }
+}

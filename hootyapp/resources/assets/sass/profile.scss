@@ -1,0 +1,33 @@
+.p-5.tabWidth.tab-content.mb-2 {
+    width: 50%;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #c8ced3;
+    width: 50%;
+}
+
+.container.profileCard {
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 600px) {
+    .container.profileCard {
+        margin-left: 0px;
+    }
+    a.btn.btn-primary {
+        margin-left: 0px;
+    }
+    .p-5.tabWidth.tab-content.mb-2 {
+        width: auto;
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #c8ced3;
+        width: auto;
+    }
+}
+
+.M-fullscreen {
+    max-width: none !important;
+    margin-top: 0%;
+}

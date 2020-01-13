@@ -1,0 +1,177 @@
+.reply_email_box{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chet .app-search
+{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.chet ul{
+    list-style: none;
+    padding-left:0px;
+}
+
+.chet ul li{
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+}
+
+.chet ul li span{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.chet ul li:hover{
+    background: #bcff72;
+}
+
+.chet ul li.active{
+    background: #c1ecff;
+    font-weight: 700;
+    color: #717171;
+}
+
+.chet .flot_left{
+    float: left;
+    padding: 0px;
+}
+
+.chet .flot_right{
+    float: right;
+    padding: 15px;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px: 
+}
+
+.chet .chet_box .receive_msg{
+    background: #adbfff;
+    padding: 10px;
+    border-radius: 0px 15px 15px 15px;
+    width: 50%;
+    margin-left: 35px;
+    color: #313131;
+}
+
+.chet .chet_box .receive_img{
+    width: 40px;
+    float: left;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.chet .chet_box .receive_img img{
+    border-radius: 50%;
+}
+
+.chet .chet_box .receive{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.chet .chet_box .send_msg{
+    background: #dedede;
+    padding: 10px;
+    border-radius: 15px 0px 15px 15px;
+    float: right;
+    width: 50%;
+    color: #313131;
+}
+
+.chet .chet_box p{
+    margin-bottom: 0px;
+}
+.chet .chet_box .send_img{
+    width: 40px;
+    float: right;
+    line-height: 35px;
+    cursor: pointer;
+}
+.chet .chet_box .send_img img{
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+.chet .chet_box .send{
+    width: 100%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.logo span.logo-lg{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+.chet_list a li img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.chet .chet_box .send_img span{
+    font-weight: 900;
+    border: 2px solid #909090;
+    border-radius: 50%;
+    padding: 5px;
+    background: white;
+    margin-left: 2px;
+    color: #717171;
+}
+.chet .chet_box .receive span{
+    font-weight: 900;
+    border: 2px solid #909090;
+    border-radius: 50%;
+    padding: 5px;
+    background: white;
+    color: #717171;
+}
+.cke_chrome{
+    display: grid !important;
+}
+.block-inverse .text-muted b{
+    color: #fff;
+    font-weight: 900;
+} 
+.top_slider_img img{
+    position: absolute;
+}
+.enrite img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.payment_card{
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+}
+.payment_card label{
+    color: #757575;
+    font-weight: 700;
+}
+.payment_card .spesh{
+    margin-top: 20px;
+}
+.success_style{
+    margin: auto;
+    background: white;
+}
+.success_style p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #008300;
+    padding: 1em;
+}
+.app-price-plans{
+    color: #2D3238;
+}
+.block-inverse .app-price-plans .text-muted{
+    color: #888888 !important;
+    font-weight: 900;
+}   

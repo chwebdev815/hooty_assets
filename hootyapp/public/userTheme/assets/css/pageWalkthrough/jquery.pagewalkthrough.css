@@ -1,0 +1,205 @@
+#jpwClose,
+#jpwNext,
+#jpwPrevious,
+#jpwFinish {
+  color: #00c7ff;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+#jpwOverlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#jpwOverlay.transparent {
+  background: none;
+}
+#jpWalkthrough.jpw-scrolling .overlay-hole > div {
+  box-shadow: inset 0 0 10px 1000px rgba(0, 0, 0, 0.6);
+}
+#jpWalkthrough .overlay-hole > div {
+  box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+#jpWalkthrough #jpwTooltip {
+  /* word-break: break-all !important; */
+  overflow: visible;
+  padding: 10px;
+  background: none;
+}
+#jpWalkthrough #jpwTooltip #tooltipWrapper {
+  overflow: visible;
+}
+#jpWalkthrough #jpwTooltip #bottom-scratch {
+  background: url("images/scratch-border.png") no-repeat left top;
+  width: 358px;
+  height: 42px;
+  display: block;
+  top: 25px;
+  clear: both;
+}
+#jpWalkthrough #jpwTooltip .draggable-area {
+  display: block;
+  width: 44px;
+  height: 40px;
+  position: absolute;
+  top: -35px;
+  right: -30px;
+  background: url("images/drag.png") no-repeat;
+  z-index: 10000;
+}
+#jpWalkthrough #jpwTooltip .top {
+  background: url("images/arrow-bottom.png") no-repeat scroll 0 0 transparent;
+  bottom: -86px;
+  height: 86px;
+  left: 130px;
+  position: absolute;
+  width: 75px;
+  display: block;
+  z-index: 1000;
+}
+.close-btn_productTour {
+  position: absolute;
+  left: 80%;
+  top: 10%;
+  font-size: 50px;
+  z-index: 1000000;
+  color: white !important;
+}
+@media only screen and (max-width: 414px) {
+  .close-btn_productTour {
+    font-size: 30px !important;
+  }
+  #jpWalkthrough #jpwTooltip #tooltipInner {
+    font-size: 16px !important;
+  }
+  #jpWalkthrough #jpwTooltip #tooltipInner a {
+    font-size: 16px !important;
+  }
+  .product-tour_mobile {
+    display: block !important;
+    margin: auto !important;
+  }
+
+  #jpWalkthrough #jpwTooltip .right {
+    display: none !important;
+  }
+  #jpwTooltip {
+    left: 0 !important;
+    right: 0 !important;
+    top: 16% !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+    margin-left: 0 !important;
+  }
+  #bottom-scratch {
+    display: none !important;
+  }
+  #tooltipWrapper {
+    width: unset !important;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 991px) {
+  #jpWalkthrough #jpwTooltip .right {
+    display: none !important;
+  }
+  .product-tour_mobile {
+    display: block !important;
+    margin: auto !important;
+  }
+  #tooltipWrapper {
+    width: unset !important;
+  }
+  #jpwTooltip {
+    left: 0 !important;
+    right: 0 !important;
+    top: 16% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding: 10px !important;
+  }
+}
+.product-tour_mobile {
+  display: none;
+  height: 200px !important;
+  overflow: auto;
+  max-height: 100%;
+}
+.product-tour_mobile img {
+  width: 100%;
+}
+#jpWalkthrough #jpwTooltip .right {
+  background: url("images/arrow-left.png") no-repeat scroll 0 0 transparent;
+  height: 56px;
+  left: -105px;
+  position: absolute;
+  top: 35px;
+  width: 105px;
+  display: block;
+  z-index: 1000;
+}
+#jpWalkthrough #jpwTooltip .bottom {
+  background: url("images/arrow-top.png") no-repeat scroll 0 0 transparent;
+  height: 86px;
+  left: 130px;
+  position: absolute;
+  top: -86px;
+  width: 75px;
+  display: block;
+  z-index: 1000;
+}
+#jpWalkthrough #jpwTooltip .left {
+  background: url("images/arrow-right.png") no-repeat scroll 0 0 transparent;
+  height: 56px;
+  position: absolute;
+  right: -105px;
+  top: 35px;
+  width: 105px;
+  display: block;
+  z-index: 1000;
+}
+#jpWalkthrough #jpwTooltip #tooltipInner {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+#jpWalkthrough #jpwTooltip #tooltipInner a {
+  font-size: 20px;
+}
+#jpWalkthrough #jpwTooltip #tooltipInner .tooltipTitle {
+  font-size: 40px;
+}
+#jpWalkthrough .killOverlay {
+  background-image: none !important;
+  background-color: none !important;
+}
+#jpwClose {
+  font-size: 40px;
+  position: fixed;
+  top: 65px;
+  right: 25px;
+  z-index: 1000000;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+#jpwClose:hover {
+  color: #c8ced3;
+}
+
+#jpwNext,
+#jpwFinish {
+  float: right;
+}
+#jpwPrevious {
+  float: left;
+}
+@font-face {
+  /* source-sans-pro-regular - latin */
+}

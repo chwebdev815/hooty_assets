@@ -1,0 +1,33 @@
+.card {
+    box-shadow: 8px 6px 25px 0px rgba(0, 0, 0, .1);
+}
+
+.row.bgColor.mb-5 {
+    background-color: transparent !important;
+}
+
+.tab-content {
+    margin-top: -1px;
+    border: none !important;
+}
+
+div#nav-tabContent {
+    background-color: transparent !important;
+}
+
+button.btn.passBtn.btn-primary {
+    position: relative;
+    /* float: right; */
+    margin-left: auto;
+}
+
+.configIcon {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    font-size: 10px !important;
+}
+
+a#btnSendToAll {
+    margin-left: 0px;
+}

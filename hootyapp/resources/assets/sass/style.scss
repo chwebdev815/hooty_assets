@@ -1,0 +1,150 @@
+//If you want to override variables do it here
+@import "variables";
+// Import styles
+@import "./scss/coreui";
+// Import Index styles
+@import "./index";
+// Import Inbox styles
+@import "./inbox";
+// Import Individual Campaign styles
+@import "./individual_campaign";
+// Import Individual Compose styles
+@import "./individual_compose";
+// Import Individual List styles
+@import "./individual_list";
+// Import Reports styles
+@import "./reports";
+// Import Search styles
+@import "./search";
+// Import News Alert styles
+@import "./news_alert";
+// Import Compose styles
+@import "./compose";
+@import "profile";
+// If you want to add something do it here
+@import "custom";
+body {
+  margin: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #354052;
+  text-align: left;
+  background-color: #e4e5e6;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.sidebar.nav-link.active {
+  background-color: #0294ff;
+}
+
+.hide {
+  display: none;
+}
+
+#messageBox {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.messageReceiveStyle {
+  margin-top: -1rem;
+  margin-left: 2rem;
+  font-size: 10px;
+}
+
+.messageSendStyle {
+  float: right;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  margin-left: 5rem;
+  font-size: 10px;
+}
+
+.sends {
+  text-align: left;
+}
+
+.replies {
+  text-align: right;
+}
+
+#searchPalce a {
+  background-color: #fff;
+}
+
+.messageBoxBack {
+  float: left;
+}
+
+/* NEWS ALERT PAGE */
+
+#profilePage .tab-content {
+  margin-top: -1px;
+  background: white !important;
+  border: none;
+}
+
+#profilePage a.nav-link.active {
+  color: #0294ff;
+}
+
+#profilePage .nav-tabs .nav-link.active {
+  background: transparent !important;
+}
+
+#profilePage .card-body {
+  background-color: white;
+}
+
+#profilePage .nav {
+  background-color: none !important;
+}
+
+#profilePage .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 3px solid #0294ff;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+  border-radius: 0;
+}
+
+#report-tab {
+  background-color: white !important;
+}
+
+#report-tab .item1 {
+  height: 60px;
+  line-height: 2.5;
+}
+
+.searchBtn {
+  color: white;
+  background-color: #0375c8;
+}
+
+.sendToAll {
+  width: 15px;
+}
+
+.card {
+  box-shadow: 8px 6px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-none {
+  text-transform: none !important;
+}
+
+.sidebar.nav-link.active {
+  background-color: #0294ff;
+}
+
+.hide {
+  display: none;
+}
