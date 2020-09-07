@@ -15,7 +15,7 @@
         "email-crawler": "^1.0.4",
         "express": "~4.16.0",
         "google-search-scraper": "^0.1.0",
-        "handlebars": "^4.0.12",
+        "handlebars": "^4.5.3",
         "hbs": "~4.0.1",
         "http-errors": "~1.6.2",
         "later": "^1.2.0",
