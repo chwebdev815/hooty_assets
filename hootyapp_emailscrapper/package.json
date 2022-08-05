@@ -21,7 +21,7 @@
         "is-url": "^1.2.4",
         "later": "^1.2.0",
         "moment": "^2.22.2",
-        "mongoose": "^5.3.0",
+        "mongoose": "^5.7.5",
         "morgan": "~1.9.0",
         "mysql": "^2.16.0",
         "mysql-json": "^0.1.3",
